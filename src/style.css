@@ -1,0 +1,45 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	line-height: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	height: 100%;
+}
+
+#app{
+	height: 100%;
+}
+
+*{
+	outline: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	padding: 0;
+	margin: 0;
+	letter-spacing: -0.03em;
+}
+
+input, textarea {
+	width: 100%;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	border: none;
+	cursor: pointer;
+	background: transparent;
+	transition: all .3s ease-in-out;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
